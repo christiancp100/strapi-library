@@ -1,0 +1,31 @@
+{
+  "name": "transfer-push-stuck",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.11.0-exp.push-transfer-push-stuck",
+    "@strapi/plugin-users-permissions": "4.11.0-exp.push-transfer-push-stuck",
+    "@strapi/strapi": "4.11.0-exp.push-transfer-push-stuck",
+    "better-sqlite3": "8.0.1",
+    "strapi-plugin-generate-data": "^1.0.23"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b2d5c7c4-ede2-4cb9-8aef-9ad6ba92fc20"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shelves",
+  "info": {
+    "singularName": "shelf",
+    "pluralName": "shelves",
+    "displayName": "Shelf",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "identifier": {
+      "type": "uid"
+    },
+    "capacity": {
+      "type": "integer"
+    },
+    "available": {
+      "type": "boolean"
+    },
+    "books": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::book.book"
+    }
+  }
+}
