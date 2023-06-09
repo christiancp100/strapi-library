@@ -11,9 +11,9 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.11.0-exp.push-transfer-push-stuck",
-    "@strapi/plugin-users-permissions": "4.11.0-exp.push-transfer-push-stuck",
-    "@strapi/strapi": "4.11.0-exp.push-transfer-push-stuck",
+    "@strapi/plugin-i18n": "4.11.0",
+    "@strapi/plugin-users-permissions": "4.11.0",
+    "@strapi/strapi": "4.11.0",
     "better-sqlite3": "8.0.1",
     "strapi-plugin-generate-data": "^1.0.23"
   },
