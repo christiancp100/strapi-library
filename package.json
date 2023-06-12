@@ -11,9 +11,9 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "0.0.0-experimental.94b79d41b4ab903ca72227330166873d3d04664c",
-    "@strapi/plugin-users-permissions": "0.0.0-experimental.94b79d41b4ab903ca72227330166873d3d04664c",
-    "@strapi/strapi": "0.0.0-experimental.94b79d41b4ab903ca72227330166873d3d04664c",
+    "@strapi/plugin-i18n": "4.11.1-beta.0",
+    "@strapi/plugin-users-permissions": "4.11.1-beta.0",
+    "@strapi/strapi": "4.11.1-beta.0",
     "better-sqlite3": "8.0.1",
     "strapi-plugin-generate-data": "^1.0.23"
   },
