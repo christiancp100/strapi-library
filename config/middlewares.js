@@ -1,5 +1,7 @@
 module.exports = [
   "strapi::errors",
+  /* Replace 'strapi::security', with this snippet */
+  /* Beginning of snippet */
   {
     name: "strapi::security",
     config: {
@@ -7,12 +9,26 @@ module.exports = [
         useDefaults: true,
         directives: {
           "connect-src": ["'self'", "https:"],
-          "img-src": ["'self'", "data:", "blob:", `https://loremflickr.com/`],
+          "img-src": [
+            "'self'",
+            "data:",
+            "blob:",
+            "dl.airtable.com",
+            "strapi-assets-transfer.s3.eu-west-1.amazonaws.com",
+          ],
+          "media-src": [
+            "'self'",
+            "data:",
+            "blob:",
+            "dl.airtable.com",
+            "strapi-assets-transfer.s3.eu-west-1.amazonaws.com",
+          ],
           upgradeInsecureRequests: null,
         },
       },
     },
   },
+  /* End of snippet */
   "strapi::cors",
   "strapi::poweredBy",
   "strapi::logger",
