@@ -11,10 +11,10 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.11.7",
-    "@strapi/plugin-users-permissions": "4.11.7",
-    "@strapi/provider-upload-aws-s3": "^4.11.7",
-    "@strapi/strapi": "4.11.7",
+    "@strapi/plugin-i18n": "0.0.0-experimental.5d61fd85e5c71f92b771b0da8134f395bc8f959c",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.5d61fd85e5c71f92b771b0da8134f395bc8f959c",
+    "@strapi/provider-upload-aws-s3": "^0.0.0-experimental.5d61fd85e5c71f92b771b0da8134f395bc8f959c",
+    "@strapi/strapi": "0.0.0-experimental.5d61fd85e5c71f92b771b0da8134f395bc8f959c",
     "better-sqlite3": "8.0.1",
     "strapi-plugin-generate-data": "^1.0.23"
   },
