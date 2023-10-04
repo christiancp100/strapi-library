@@ -23,6 +23,7 @@ export interface AdminPermission extends Schema.CollectionType {
       Attribute.SetMinMaxLength<{
         minLength: 1;
       }>;
+    actionParameters: Attribute.JSON & Attribute.DefaultTo<{}>;
     subject: Attribute.String &
       Attribute.SetMinMaxLength<{
         minLength: 1;

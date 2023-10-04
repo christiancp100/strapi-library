@@ -1,7 +1,4 @@
 module.exports = ({ env }) => ({
-  "generate-data": {
-    enabled: true,
-  },
   // upload: {
   //   config: {
   //     provider: "aws-s3",
