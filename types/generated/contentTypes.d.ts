@@ -683,6 +683,7 @@ export interface ApiBookBook extends Schema.CollectionType {
     singularName: 'book';
     pluralName: 'books';
     displayName: 'Book';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -691,6 +692,7 @@ export interface ApiBookBook extends Schema.CollectionType {
     Title: Attribute.String;
     Sinopsis: Attribute.RichText;
     publicationDate: Attribute.Date;
+    cover: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
