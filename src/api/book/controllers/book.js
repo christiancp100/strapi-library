@@ -28,7 +28,7 @@ module.exports = createCoreController("api::book.book", ({ strapi }) => ({
       "https://images.pexels.com/photos/941456/pexels-photo-941456.jpeg?cs=srgb&dl=pexels-henrik-pfitzenmaier-941456.jpg&fm=jpg&w=4422&h=2948&_gl=1*1pxdm9s*_ga*MTIyMDgwOTEyMy4xNjk3MTk5NDA4*_ga_8JE65Q40S6*MTY5NzE5OTQwOC4xLjEuMTY5NzE5OTQxMC4wLjAuMA.."
     );
 
-    for (let i = 0; i < 1500; i++) {
+    for (let i = 0; i < 100; i++) {
       const photo = {
         name: faker.word.noun(),
       };
@@ -53,8 +53,8 @@ module.exports = createCoreController("api::book.book", ({ strapi }) => ({
         await strapi.entityService.create("api::book.book", {
           data: {
             Title: faker.word.noun(),
-            Sinopsis: faker.lorem.paragraph(),
-            publicationState: "Published",
+            Sinopsis: faker.lorem.paragraph(),: "Published",
+            publicationState
             publishedAt: "2023-01-23T17:10:46.984Z",
             cover: media,
           },
