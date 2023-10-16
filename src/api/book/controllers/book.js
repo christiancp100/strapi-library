@@ -53,8 +53,8 @@ module.exports = createCoreController("api::book.book", ({ strapi }) => ({
         await strapi.entityService.create("api::book.book", {
           data: {
             Title: faker.word.noun(),
-            Sinopsis: faker.lorem.paragraph(),: "Published",
-            publicationState
+            Sinopsis: faker.lorem.paragraph(),
+            publicationState: "Published",
             publishedAt: "2023-01-23T17:10:46.984Z",
             cover: media,
           },
