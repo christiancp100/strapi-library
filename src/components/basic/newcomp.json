@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_basic_newcomps",
+  "info": {
+    "displayName": "newcomp"
+  },
+  "options": {},
+  "attributes": {
+    "h1": {
+      "type": "string"
+    }
+  }
+}

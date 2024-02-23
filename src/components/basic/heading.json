@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_basic_headings",
+  "info": {
+    "displayName": "heading",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Footer": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
